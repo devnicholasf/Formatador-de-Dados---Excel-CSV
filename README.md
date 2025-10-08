@@ -25,7 +25,7 @@ Com apenas um clique no botão “Formatar”, os dados são reorganizados e apr
 
 📌 Antes (dados desorganizados):
 
-! [Tela Inicial](.img/tela_inicial.png)
+! [Tela Inicial](.img/Tela_inicial.png.png)
 
 📌 Depois de clicar em **Formatar**:
 
