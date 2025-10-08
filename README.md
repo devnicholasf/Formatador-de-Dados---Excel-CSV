@@ -8,16 +8,20 @@ Com apenas um clique no botão “Formatar”, os dados são reorganizados e apr
 ⸻
 
 🎯 Objetivos
-	•	Automatizar a organização de dados do Excel/CSV.
-	•	Reduzir erros manuais na formatação.
-	•	Facilitar a leitura e análise de informações.
+
+•	Automatizar a organização de dados do Excel/CSV.
+	
+•	Reduzir erros manuais na formatação.
+	
+•	Facilitar a leitura e análise de informações.
 
 ⸻
 
 ⚙️ Tecnologias Utilizadas
-	•	HTML, CSS, JavaScript (Front-end)
-	•	(Se tiver usado alguma biblioteca, coloca aqui)
-	•	ChatGPT como copiloto de código (auxílio para acelerar desenvolvimento)
+
+•	HTML, CSS, JavaScript (Front-end)
+	
+•	ChatGPT como copiloto de código (auxílio para acelerar desenvolvimento)
 
 ⸻
 
@@ -25,8 +29,32 @@ Com apenas um clique no botão “Formatar”, os dados são reorganizados e apr
 
 📌 Antes (dados desorganizados):
 
-! [Tela Inicial](./img/Tela_inicial.png.png)
+[Tela Inicial](./img/Tela_inicial.png.png)
 
 📌 Depois de clicar em **Formatar**:
 
-! [Resultado Formatado](./img/resultado_formatado.png.png)
+[Resultado Formatado](./img/resultado_formatado.png.png)
+
+⸻
+
+💡 Aprendizados
+
+•	Experiência prática em automação de processos internos.
+
+•	Uso de IA como ferramenta de apoio no desenvolvimento.
+
+•	Importância de transformar um problema real em solução prática.
+
+⸻
+
+📌 Status do Projeto
+
+✅ Funcional e em uso interno.
+💭 Futuro: permitir upload de arquivos .csv e download automático do resultado.
+
+⸻
+
+👨‍💻 Autor
+
+Desenvolvido por Nicholas Freitas 
+   
