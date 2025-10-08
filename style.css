@@ -1,0 +1,166 @@
+/* Estilização geral */
+body {
+  background: #f4f6f9;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #000307;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: relative;
+}
+
+.logo-pcce {
+  width: 145px;
+  height: auto;
+  position: absolute;
+  top: 15px;
+  left: 20px;
+}
+
+/* Conteúdo principal */
+main {
+  flex: 1;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 0 20px rgba(0,0,0,0.05);
+  border-radius: 10px;
+}
+
+textarea {
+  width: 100%;
+  height: 180px;
+  padding: 12px;
+  font-size: 14px;
+  font-family: monospace;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  resize: vertical;
+}
+
+/* Botão */
+button {
+  margin-top: 15px;
+  background-color: #000101;
+  color: white;
+  font-weight: bold;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: 0 3px 6px rgba(0,123,255,0.2);
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Resultado formatado */
+pre {
+  margin-top: 30px;
+  background: #f9f9f9;
+  padding: 20px;
+  font-family: monospace;
+  white-space: pre-wrap;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  color: #333;
+}
+
+
+button + button {
+  margin-left: 10px;
+}
+
+
+/* Rodapé */
+footer {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #999;
+  padding: 15px 0;
+}
+
+#output {
+  background-color: #f4f4f4;
+  padding: 1rem;
+  white-space: pre-wrap;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+#output.destacado {
+  background-color: #d4edda; /* verde claro */
+  border: 1px solid #28a745;
+}
+.botoes-formatar {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.botoes-formatar button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.botoes-formatar button:hover {
+  background-color: black;
+}
+
+.botao-copiar {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.botao-copiar button {
+  padding: 10px 30px;
+  font-size: 1rem;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.botao-copiar button:hover {
+  background-color: #218838;
+}
+.mensagem-copiar {
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 15px;
+  transition: opacity 0.3s ease;
+}
+
+.mensagem-sucesso {
+  color: #28a745;
+}
+
+.mensagem-erro {
+  color: red;
+}
+
+
