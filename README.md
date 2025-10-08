@@ -50,6 +50,7 @@ Com apenas um clique no botão “Formatar”, os dados são reorganizados e apr
 📌 Status do Projeto
 
 ✅ Funcional e em uso interno.
+
 💭 Futuro: permitir upload de arquivos .csv e download automático do resultado.
 
 ⸻
