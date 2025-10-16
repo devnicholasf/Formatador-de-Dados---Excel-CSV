@@ -10,8 +10,10 @@ Com apenas um clique no botão “Formatar”, os dados são reorganizados e apr
 🎯 Objetivos
 
 •	Automatizar a organização de dados do Excel/CSV.
+
+•	Otimizar tarefas repetitivas e aumentar a produtividade da equipe.
 	
-•	Reduzir erros manuais na formatação.
+•	Reduzir erros manuais na formatação. 
 	
 •	Facilitar a leitura e análise de informações.
 
