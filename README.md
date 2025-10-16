@@ -3,7 +3,7 @@
 Este projeto é um formatador automático de dados, criado para resolver um problema recorrente no trabalho: linhas de tabelas do Excel que vinham desorganizadas e difíceis de ler.
 Com apenas um clique no botão “Formatar”, os dados são reorganizados e apresentados de forma clara e padronizada.
 
-🚀 Foi usado no ambiente interno da empresa, ajudando colegas de trabalho a ganhar tempo e produtividade.
+🚀 Foi usado no ambiente interno do trabalho, ajudando colegas de trabalho a ganhar tempo e produtividade.
 
 ⸻
 
