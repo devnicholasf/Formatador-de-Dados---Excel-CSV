@@ -1,0 +1,58 @@
+<head>
+  <meta charset="UTF-8">
+  <title>Formatador de Dados Pessoais</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Link para o CSS externo -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Cabeçalho com título e imagem da PCCE -->
+  <header>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFqiTUwHq89Xo6-3LIortmeVqRI8CC4xNXNg&s"
+      alt="Escudo da PCCE" class="logo-pcce" height="400" width="400">
+    <h1>Formatador de Dados Pessoais</h1>
+    <p>Cole os dados brutos abaixo e clique em "Formatar (E-mail Funcional ou Usuario de Rede)"</p>
+  </header>
+
+  <!-- ✅ Aviso -->
+  <div style="display: flex; align-items: center; background-color: #fef9f1; 
+    border-left: 5px solid #f0ad4e; padding: 10px 15px; border-radius: 4px; 
+    margin: 20px auto; max-width: 900px; font-size: 14px; color: #8a6d3b;">
+    <span style="font-size: 18px; margin-right: 10px;">⚠️</span>
+    <div>
+      As opções <strong>'Alteração de Dados Outlook'</strong> e
+      <strong>'Criação de Perfil'</strong> ainda não estão disponíveis.<br>
+      Utilize apenas <strong>'E-mail Funcional Pessoal'</strong> na opção
+      <strong>'Reset de E-mail Funcional'</strong>.
+    </div>
+  </div>
+
+  <!-- Área principal do site -->
+  <main>
+    <textarea id="input" placeholder="Cole os dados aqui..."></textarea>
+
+    <!-- Botões -->
+    <div class="botoes-formatar">
+      <button onclick="formatar()">Reset de E-mail Funcional</button>
+      <button onclick="formatar2()">Reset de Usuário de Rede</button>
+
+    </div>
+
+    <pre id="output"></pre>
+
+    <!-- Mensagem de status da cópia -->
+    <div id="mensagem-copiar" class="mensagem-copiar"></div>
+
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    Desenvolvido por Suporte Técnico da Polícia Civil do Ceará 💻
+  </footer>
+
+  <!-- Link para o JS externo -->
+  <script src="script.js"></script>
+</body>
