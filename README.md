@@ -40,14 +40,7 @@ Ele foi utilizado internamente pela equipe, gerando **produtividade real** e red
 
 ## 🖼️ Demonstração
 
-📌 **Antes** (dados desorganizados): 
-
-[Tela Inicial](./img/Tela_inicial.png.png)
-
-📌 **Depois de clicar em "Formatar"**:  
-*Dados limpos, organizados e padronizados automaticamente.*
-
-[Resultado Formatado](./img/resultado_formatado.png.png)
+> 📌 *Projeto privado devido ao uso institucional.*
 
 ---
 
